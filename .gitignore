@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+*.egg
+
+# Environment
+.env
+*.env.local
+
+# Node
+node_modules/
+dist/
+.nuxt/
+
+# Docker
+*.log
+
+# Data (never commit patient data)
+data/
+*.csv
+*.parquet
+*.feather
+mimic*/
+
+# IDE
+.vscode/
+.idea/
+*.swp
